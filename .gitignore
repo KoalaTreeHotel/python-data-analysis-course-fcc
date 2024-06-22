@@ -5,12 +5,11 @@
 
 # Me
 *.7z
+*.zip
+*.mp3
 *.mp4
 *.log
-*.mp3
-*.csv
 .myFccDataAnalEnv/
-*.zip
 
 # Node artifact files
 node_modules/
