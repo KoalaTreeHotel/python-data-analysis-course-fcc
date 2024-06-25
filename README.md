@@ -1,22 +1,36 @@
 # FCC Course: Data Analysis with Python
 
-Doing the course using Jupyter Lab within a Python
+Data Analysis has been around for a long time. But up until
+a few years ago, developers practiced it using
+expensive, closed-source tools like Tableau. But recently,
+Python, SQL, and other open libraries have changed Data Analysis forever.
+
+In the Data Analysis with Python Certification, you'll learn
+the fundamentals of data analysis with Python. By the end
+of this certification, you'll know how to read data
+from sources like CSVs and SQL, and how to use libraries
+like Numpy, Pandas, Matplotlib, and Seaborn to process
+and visualize data.
+
+## Virtual Environment
+
+Using Jupyter Lab within a Python
 virtual environement (module venv) utilising PyEnv
 for Python versioning.
 
-## Setup the Virtual Environment
+### Setup the Virtual Environment
 
 Open up the terminal within Jupyter Lab:
 
 - `cd projRootDir`
 - `pyenv local 3.12.2`
-- create Venv
+- create the virtual environment:
   - `pyenv exec python -m venv .myFccDataAnalEnv`
-- activate Venv
+- activate the virtual environment:
   - `.\.myFccDataAnalEnv\Scripts\activate`
 - `pip install ipykernel`
 - `python -m ipykernel install --user --name=.myFccDataAnalEnv`
-- select the Venv with Jupyter Lab
+- select the virtual environment from within Jupyter Lab:
   - in Jupyter Lab, kernel -\> change kernel -\> select ".myFccDataAnalEnv"
 
 ## Other Pip Installs To Do
