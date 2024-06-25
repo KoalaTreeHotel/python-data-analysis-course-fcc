@@ -4,6 +4,7 @@
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 # Me
+extras.*
 *.7z
 *.zip
 *.mp3
