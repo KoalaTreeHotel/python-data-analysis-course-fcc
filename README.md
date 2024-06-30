@@ -1,4 +1,4 @@
-# FCC Course: Data Analysis with Python
+# Data Analysis with Python (FCC)
 
 Data Analysis has been around for a long time. But up until
 a few years ago, developers practiced it using
