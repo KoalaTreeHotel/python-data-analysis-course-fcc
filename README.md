@@ -40,10 +40,15 @@ Open up the terminal within Jupyter Lab:
 - `cd myprojectDir`
 - make sure we're in the Venv
   - `.\.myFccDataAnalEnv\Scripts\activate` if necessary
-- `pip install numpy`
-- `pip install matplotlib`
-- `pip install pandas`
-- `pip install scipy`
-- `pip install requests`
-- `pip install bokeh` (alternative visualistion package)
-- `pip install openpyxl` (for working with Excel files)
+- manually install
+  - `pip install numpy`
+  - `pip install matplotlib`
+  - `pip install pandas`
+  - `pip install scipy`
+  - `pip install requests`
+  - `pip install bokeh` (alternative visualistion package)
+  - `pip install openpyxl` (for working with Excel files)
+  - `pip install sqlalchemy`
+  - `pip install lxml` (for reading HTML)
+- auto install
+  - `pip install -r requirements_sf.txt`
