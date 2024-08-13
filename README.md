@@ -29,7 +29,8 @@ Open up the terminal within Jupyter Lab:
 - activate the virtual environment:
   - `.\.myFccDataAnalEnv\Scripts\activate`
 - `pip install ipykernel`
-- `python -m ipykernel install --user --name=.myFccDataAnalEnv`
+- install the jupyter kernel for the virtual environment
+  - `python -m ipykernel install --user --name=.myFccDataAnalEnv`
 - select the virtual environment from within Jupyter Lab:
   - in Jupyter Lab, kernel -\> change kernel -\> select ".myFccDataAnalEnv"
 
