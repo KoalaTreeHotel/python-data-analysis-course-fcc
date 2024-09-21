@@ -52,4 +52,4 @@ Open up the terminal within Jupyter Lab:
   - `pip install sqlalchemy`
   - `pip install lxml` (for reading HTML)
 - auto install
-  - `pip install -r requirements_sf.txt`
+  - `pip install -r requirements.txt`
