@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD007 -->
+
 # Data Analysis with Python (FCC)
 
 Data Analysis has been around for a long time. But up until
@@ -25,31 +27,31 @@ Open up the terminal within Jupyter Lab:
 - `cd projRootDir`
 - `pyenv local 3.12.2`
 - create the virtual environment:
-  - `pyenv exec python -m venv .myFccDataAnalEnv`
+    - `pyenv exec python -m venv .myFccDataAnalEnv`
 - activate the virtual environment:
-  - `.\.myFccDataAnalEnv\Scripts\activate`
+    - `.\.myFccDataAnalEnv\Scripts\activate`
 - `pip install ipykernel`
 - install the jupyter kernel for the virtual environment
-  - `python -m ipykernel install --user --name=.myFccDataAnalEnv`
+    - `python -m ipykernel install --user --name=.myFccDataAnalEnv`
 - select the virtual environment from within Jupyter Lab:
-  - in Jupyter Lab, kernel -\> change kernel -\> select ".myFccDataAnalEnv"
+    - in Jupyter Lab, kernel -\> change kernel -\> select ".myFccDataAnalEnv"
 
 ## Other Pip Installs To Do
 
 Open up the terminal within Jupyter Lab:
 
 - `cd myprojectDir`
-- make sure we're in the Venv
-  - `.\.myFccDataAnalEnv\Scripts\activate` if necessary
-- manually install
-  - `pip install numpy`
-  - `pip install matplotlib`
-  - `pip install pandas`
-  - `pip install scipy`
-  - `pip install requests`
-  - `pip install bokeh` (alternative visualistion package)
-  - `pip install openpyxl` (for working with Excel files)
-  - `pip install sqlalchemy`
-  - `pip install lxml` (for reading HTML)
-- auto install
-  - `pip install -r requirements.txt`
+- make sure we're in the virtual environment
+    - `.\.myFccDataAnalEnv\Scripts\activate` if necessary
+- auto install packages
+    - `pip install -r requirements.txt`
+    - note of packages I manually installed
+        - `pip install numpy`
+        - `pip install matplotlib`
+        - `pip install pandas`
+        - `pip install scipy`
+        - `pip install requests`
+        - `pip install bokeh` (alternative visualistion package)
+        - `pip install openpyxl` (for working with Excel files)
+        - `pip install sqlalchemy`
+        - `pip install lxml` (for reading HTML)
